@@ -1,0 +1,81 @@
+{
+  "fields": [
+    "ID",
+    "GatherAddressID",
+    "FacilitiesID",
+    "Weight",
+    "Sort"
+  ],
+  "types": [
+    "string",
+    "string",
+    "string",
+    "int",
+    "int"
+  ],
+  "data": [
+    {
+      "ID": "15001",
+      "GatherAddressID": "10001",
+      "FacilitiesID": "5001",
+      "Weight": 100,
+      "Sort": 1
+    },
+    {
+      "ID": "15002",
+      "GatherAddressID": "10002",
+      "FacilitiesID": "5002",
+      "Weight": 100,
+      "Sort": 2
+    },
+    {
+      "ID": "15003",
+      "GatherAddressID": "10003",
+      "FacilitiesID": "5003",
+      "Weight": 100,
+      "Sort": 3
+    },
+    {
+      "ID": "15004",
+      "GatherAddressID": "10004",
+      "FacilitiesID": "5004",
+      "Weight": 100,
+      "Sort": 4
+    },
+    {
+      "ID": "15005",
+      "GatherAddressID": "10005",
+      "FacilitiesID": "5005",
+      "Weight": 100,
+      "Sort": 5
+    },
+    {
+      "ID": "15006",
+      "GatherAddressID": "10006",
+      "FacilitiesID": "5006",
+      "Weight": 100,
+      "Sort": 6
+    },
+    {
+      "ID": "15007",
+      "GatherAddressID": "10007",
+      "FacilitiesID": "5007",
+      "Weight": 100,
+      "Sort": 7
+    },
+    {
+      "ID": "15008",
+      "GatherAddressID": "10008",
+      "FacilitiesID": "5008",
+      "Weight": 100,
+      "Sort": 8
+    },
+    {
+      "ID": "15009",
+      "GatherAddressID": "10009",
+      "FacilitiesID": "5009",
+      "Weight": 100,
+      "Sort": 9
+    }
+  ]
+}

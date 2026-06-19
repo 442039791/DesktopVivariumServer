@@ -1,0 +1,26 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.0.49f1
+CRC: 3455183330
+HashAppended: 0
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: fonts.assetbundle
+      Dependencies: {}
+    Info_1:
+      Name: gameprefab.assetbundle
+      Dependencies:
+        Dependency_0: fonts.assetbundle
+        Dependency_1: image.assetbundle
+    Info_2:
+      Name: image.assetbundle
+      Dependencies: {}
+    Info_3:
+      Name: sound.assetbundle
+      Dependencies: {}
+    Info_4:
+      Name: assetsmap_bytes.assetbundle
+      Dependencies: {}
+    Info_5:
+      Name: variantsmap_bytes.assetbundle
+      Dependencies: {}

@@ -1,0 +1,1600 @@
+{
+  "fields": [
+    "ID",
+    "Text"
+  ],
+  "types": [
+    "int",
+    "string"
+  ],
+  "data": [
+    {
+      "ID": 1,
+      "Text": "English"
+    },
+    {
+      "ID": 2,
+      "Text": "Ecological Tank Information"
+    },
+    {
+      "ID": 3,
+      "Text": "Freshwater Ecological Tank"
+    },
+    {
+      "ID": 4,
+      "Text": "Size:"
+    },
+    {
+      "ID": 5,
+      "Text": "Space:"
+    },
+    {
+      "ID": 6,
+      "Text": "Adjust Size"
+    },
+    {
+      "ID": 7,
+      "Text": "Edit Ecological Tank"
+    },
+    {
+      "ID": 8,
+      "Text": "Oxygen"
+    },
+    {
+      "ID": 9,
+      "Text": "Carbon Dioxide"
+    },
+    {
+      "ID": 10,
+      "Text": "Nutrition"
+    },
+    {
+      "ID": 11,
+      "Text": "Waste"
+    },
+    {
+      "ID": 12,
+      "Text": "Vegetarian Food"
+    },
+    {
+      "ID": 13,
+      "Text": "Add"
+    },
+    {
+      "ID": 14,
+      "Text": "Remove"
+    },
+    {
+      "ID": 15,
+      "Text": "Animal"
+    },
+    {
+      "ID": 16,
+      "Text": "Plant"
+    },
+    {
+      "ID": 17,
+      "Text": "Field Collection"
+    },
+    {
+      "ID": 18,
+      "Text": "Settings"
+    },
+    {
+      "ID": 19,
+      "Text": "Free"
+    },
+    {
+      "ID": 20,
+      "Text": "Go"
+    },
+    {
+      "ID": 21,
+      "Text": "Time Required:"
+    },
+    {
+      "ID": 22,
+      "Text": "Can Be Obtained"
+    },
+    {
+      "ID": 23,
+      "Text": "Unlocked After Obtaining a Ticket"
+    },
+    {
+      "ID": 24,
+      "Text": "Save"
+    },
+    {
+      "ID": 25,
+      "Text": "Save and Exit"
+    },
+    {
+      "ID": 26,
+      "Text": "Music Play/Pause"
+    },
+    {
+      "ID": 27,
+      "Text": "Music Shuffle"
+    },
+    {
+      "ID": 28,
+      "Text": "Next Song"
+    },
+    {
+      "ID": 29,
+      "Text": "Previous Song"
+    },
+    {
+      "ID": 30,
+      "Text": "Delete Save File"
+    },
+    {
+      "ID": 31,
+      "Text": "Outskirts"
+    },
+    {
+      "ID": 32,
+      "Text": "???"
+    },
+    {
+      "ID": 33,
+      "Text": "Each animal requires a certain living space. When the ecological tank is overcrowded, their health will gradually decline."
+    },
+    {
+      "ID": 34,
+      "Text": "Adjust the position of the ecological tank on the desktop and the viewing angle."
+    },
+    {
+      "ID": 35,
+      "Text": "Place animals, plants, and decorations obtained from field collection into the ecological tank."
+    },
+    {
+      "ID": 36,
+      "Text": "Oxygen: Animals consume oxygen, while plants produce it. When oxygen is insufficient in the ecological tank, animal health declines."
+    },
+    {
+      "ID": 37,
+      "Text": "Carbon Dioxide: Animals produce carbon dioxide, while plants consume it. When carbon dioxide levels are too high in the ecological tank, animal health declines."
+    },
+    {
+      "ID": 38,
+      "Text": "Waste: Animals produce waste, while plants consume it. When waste levels are too high in the ecological tank, the health of both animals and plants declines."
+    },
+    {
+      "ID": 39,
+      "Text": "Vegetarian Food: Food for herbivores. When food is insufficient, animal health declines."
+    },
+    {
+      "ID": 40,
+      "Text": "Plants consume nutrition. When nutrition is insufficient, plants cannot maintain ecological balance."
+    },
+    {
+      "ID": 41,
+      "Text": "Add oxygen to the ecological tank."
+    },
+    {
+      "ID": 42,
+      "Text": "Remove carbon dioxide from the ecological tank."
+    },
+    {
+      "ID": 43,
+      "Text": "Remove waste from the ecological tank."
+    },
+    {
+      "ID": 44,
+      "Text": "Add vegetarian food to the ecological tank."
+    },
+    {
+      "ID": 45,
+      "Text": "Add nutrition to the ecological tank."
+    },
+    {
+      "ID": 46,
+      "Text": "Ecological Tank Information"
+    },
+    {
+      "ID": 47,
+      "Text": "Field Collection: Obtain new animals, plants, and various decorations through field collection."
+    },
+    {
+      "ID": 48,
+      "Text": "Settings"
+    },
+    {
+      "ID": 49,
+      "Text": "Window Adjustment"
+    },
+    {
+      "ID": 50,
+      "Text": "Position"
+    },
+    {
+      "ID": 51,
+      "Text": "Size"
+    },
+    {
+      "ID": 52,
+      "Text": "Camera Adjustment"
+    },
+    {
+      "ID": 53,
+      "Text": "Position"
+    },
+    {
+      "ID": 54,
+      "Text": "Angle"
+    },
+    {
+      "ID": 55,
+      "Text": "Depth"
+    },
+    {
+      "ID": 56,
+      "Text": "Interface Size"
+    },
+    {
+      "ID": 57,
+      "Text": "Move"
+    },
+    {
+      "ID": 58,
+      "Text": "Build"
+    },
+    {
+      "ID": 59,
+      "Text": "Delete"
+    },
+    {
+      "ID": 60,
+      "Text": "Single Select"
+    },
+    {
+      "ID": 61,
+      "Text": "Multiple Select"
+    },
+    {
+      "ID": 62,
+      "Text": "Growth Progress:"
+    },
+    {
+      "ID": 63,
+      "Text": "Food Amount:"
+    },
+    {
+      "ID": 64,
+      "Text": "Place"
+    },
+    {
+      "ID": 65,
+      "Text": "Sell"
+    },
+    {
+      "ID": 66,
+      "Text": "Recycle"
+    },
+    {
+      "ID": 67,
+      "Text": "Block"
+    },
+    {
+      "ID": 68,
+      "Text": "Decoration"
+    },
+    {
+      "ID": 69,
+      "Text": "Storage"
+    },
+    {
+      "ID": 70,
+      "Text": "If adult animals of the same species are present in the ecological tank, they will begin to reproduce. However, reproduction stops if there is insufficient space in the tank."
+    },
+    {
+      "ID": 71,
+      "Text": "As plants grow, their ability to maintain ecological balance in the tank strengthens."
+    },
+    {
+      "ID": 72,
+      "Text": "When the ecological tank's environment does not meet the survival conditions of animals and plants, their health will deteriorate until death."
+    },
+    {
+      "ID": 73,
+      "Text": "[W][A][S][D] to move the cursor."
+    },
+    {
+      "ID": 74,
+      "Text": "[Z][X]to raise and lower the cursor."
+    },
+    {
+      "ID": 75,
+      "Text": "[Spacebar] to perform actions."
+    },
+    {
+      "ID": 76,
+      "Text": "[ESC]to cancel selection."
+    },
+    {
+      "ID": 77,
+      "Text": "Window Size"
+    },
+    {
+      "ID": 78,
+      "Text": "Adult"
+    },
+    {
+      "ID": 79,
+      "Text": "Purchase"
+    },
+    {
+      "ID": 80,
+      "Text": "Start"
+    },
+    {
+      "ID": 81,
+      "Text": "Close"
+    },
+    {
+      "ID": 82,
+      "Text": "Started"
+    },
+    {
+      "ID": 83,
+      "Text": "Automatically Stored Animals:"
+    },
+    {
+      "ID": 84,
+      "Text": "Automatically Sold Animals:"
+    },
+    {
+      "ID": 85,
+      "Text": "Insufficient Eco-Coins, cannot go for field collection."
+    },
+    {
+      "ID": 86,
+      "Text": "Cannot go as it is not unlocked."
+    },
+    {
+      "ID": 87,
+      "Text": "Insufficient space in the ecological tank."
+    },
+    {
+      "ID": 88,
+      "Text": "White"
+    },
+    {
+      "ID": 89,
+      "Text": "Blue"
+    },
+    {
+      "ID": 90,
+      "Text": "Purple"
+    },
+    {
+      "ID": 91,
+      "Text": "Orange"
+    },
+    {
+      "ID": 92,
+      "Text": "White"
+    },
+    {
+      "ID": 93,
+      "Text": "Blue"
+    },
+    {
+      "ID": 94,
+      "Text": "Purple"
+    },
+    {
+      "ID": 95,
+      "Text": "Orange"
+    },
+    {
+      "ID": 96,
+      "Text": "Ticket"
+    },
+    {
+      "ID": 97,
+      "Text": "Device"
+    },
+    {
+      "ID": 98,
+      "Text": "Ecological Tank"
+    },
+    {
+      "ID": 99,
+      "Text": "Space Occupied:"
+    },
+    {
+      "ID": 100,
+      "Text": "When space is insufficient in the ecological tank, animals will not reproduce."
+    },
+    {
+      "ID": 101,
+      "Text": "Regular Vegetarian Food"
+    },
+    {
+      "ID": 102,
+      "Text": "Regular Meat Food"
+    },
+    {
+      "ID": 103,
+      "Text": "Specified Vegetarian Food:"
+    },
+    {
+      "ID": 104,
+      "Text": "Specified Meat Food:"
+    },
+    {
+      "ID": 105,
+      "Text": "Food:"
+    },
+    {
+      "ID": 106,
+      "Text": "Amount of food consumed by animals per hour."
+    },
+    {
+      "ID": 107,
+      "Text": "Reproduction Cycle:"
+    },
+    {
+      "ID": 108,
+      "Text": "Time interval for adult animals to reproduce. Requires two adults to reproduce."
+    },
+    {
+      "ID": 109,
+      "Text": "Adult Time:"
+    },
+    {
+      "ID": 110,
+      "Text": "Time required to reach adulthood."
+    },
+    {
+      "ID": 111,
+      "Text": "Oxygen:"
+    },
+    {
+      "ID": 112,
+      "Text": "Amount of oxygen consumed by animals per hour."
+    },
+    {
+      "ID": 113,
+      "Text": "Oxygen Requirement:"
+    },
+    {
+      "ID": 114,
+      "Text": "When oxygen levels in the ecological tank are too low, animal health will be affected."
+    },
+    {
+      "ID": 115,
+      "Text": "Carbon Dioxide:"
+    },
+    {
+      "ID": 116,
+      "Text": "Amount of carbon dioxide produced by animals per hour."
+    },
+    {
+      "ID": 117,
+      "Text": "Carbon Dioxide Requirement:"
+    },
+    {
+      "ID": 118,
+      "Text": "When carbon dioxide levels in the ecological tank are too high, animal health will be affected."
+    },
+    {
+      "ID": 119,
+      "Text": "Waste:"
+    },
+    {
+      "ID": 120,
+      "Text": "Amount of waste produced by animals per hour."
+    },
+    {
+      "ID": 121,
+      "Text": "Waste Requirement:"
+    },
+    {
+      "ID": 122,
+      "Text": "When waste levels in the ecological tank are too high, animal health will be affected."
+    },
+    {
+      "ID": 123,
+      "Text": "Growth Time:"
+    },
+    {
+      "ID": 124,
+      "Text": "Amount of food produced by plants per hour."
+    },
+    {
+      "ID": 125,
+      "Text": "Amount of oxygen produced by plants per hour."
+    },
+    {
+      "ID": 126,
+      "Text": "Amount of carbon dioxide removed by plants per hour."
+    },
+    {
+      "ID": 127,
+      "Text": "Amount of waste removed by plants per hour."
+    },
+    {
+      "ID": 128,
+      "Text": "Nutrition:"
+    },
+    {
+      "ID": 129,
+      "Text": "Help"
+    },
+    {
+      "ID": 130,
+      "Text": "Clean"
+    },
+    {
+      "ID": 131,
+      "Text": "Encyclopedia"
+    },
+    {
+      "ID": 132,
+      "Text": "Full Version Unlock"
+    },
+    {
+      "ID": 133,
+      "Text": "Language"
+    },
+    {
+      "ID": 134,
+      "Text": "Insufficient Eco-Coins"
+    },
+    {
+      "ID": 135,
+      "Text": "Store in Warehouse"
+    },
+    {
+      "ID": 136,
+      "Text": "Juvenile Information"
+    },
+    {
+      "ID": 137,
+      "Text": "Adult Information"
+    },
+    {
+      "ID": 138,
+      "Text": "Position Occupied"
+    },
+    {
+      "ID": 139,
+      "Text": "Deletion failed, nothing at the position."
+    },
+    {
+      "ID": 140,
+      "Text": "Placement failed {0}"
+    },
+    {
+      "ID": 141,
+      "Text": "Exited Build Mode"
+    },
+    {
+      "ID": 142,
+      "Text": "Place this animal in the warehouse. While in the warehouse, the animal will not consume anything, nor will it grow or reproduce."
+    },
+    {
+      "ID": 143,
+      "Text": "Health: When an animal's health reaches zero, it will die."
+    },
+    {
+      "ID": 144,
+      "Text": "Not Started"
+    },
+    {
+      "ID": 145,
+      "Text": "Adult"
+    },
+    {
+      "ID": 146,
+      "Text": "Juvenile"
+    },
+    {
+      "ID": 147,
+      "Text": "Activate"
+    },
+    {
+      "ID": 148,
+      "Text": "Delete items in the ecological tank"
+    },
+    {
+      "ID": 149,
+      "Text": "Animals for Sale:"
+    },
+    {
+      "ID": 150,
+      "Text": "Deceased"
+    },
+    {
+      "ID": 5000,
+      "Text": "Congratulations on having your own desktop ecological tank, let's work together for the ecological balance in the tank!"
+    },
+    {
+      "ID": 5001,
+      "Text": "But now the ecological tank is empty and worrying."
+    },
+    {
+      "ID": 5002,
+      "Text": "How about we go field collecting some animals and plants to put in the ecological tank first."
+    },
+    {
+      "ID": 5003,
+      "Text": "Then let's set off!"
+    },
+    {
+      "ID": 5004,
+      "Text": "There seem to be many places for field collecting, to be cautious let's start from nearby places first."
+    },
+    {
+      "ID": 5005,
+      "Text": "Fortunately the outskirts are close enough that we don't need to spend money to go there."
+    },
+    {
+      "ID": 5006,
+      "Text": "Great! We seem to have collected quite a few interesting animals and plants."
+    },
+    {
+      "ID": 5007,
+      "Text": "Let's open it and see what we got."
+    },
+    {
+      "ID": 5008,
+      "Text": "Since we have gains, let's put them in the ecological tank."
+    },
+    {
+      "ID": 5009,
+      "Text": "Items we get from field collecting are first stored in the warehouse, making it convenient for us to arrange them further."
+    },
+    {
+      "ID": 5010,
+      "Text": "Let's go check out the warehouse first."
+    },
+    {
+      "ID": 5011,
+      "Text": "Besides animals and plants, decorations and blocks are also stored in the warehouse. Remember to visit the warehouse often in the future."
+    },
+    {
+      "ID": 5012,
+      "Text": "Let's put the plants we collected into the ecological tank first."
+    },
+    {
+      "ID": 5013,
+      "Text": "Let's put the other one in too."
+    },
+    {
+      "ID": 5014,
+      "Text": "Plants are also an important part of the ecosystem. They not only produce oxygen, but also vegetarian food."
+    },
+    {
+      "ID": 5015,
+      "Text": "They can also consume excess carbon dioxide and waste in the ecological tank, but plants themselves need nutrition to stay vital."
+    },
+    {
+      "ID": 5016,
+      "Text": "More importantly, plants can beautify our ecological tank. Let's place this plant in the ecological tank."
+    },
+    {
+      "ID": 5017,
+      "Text": "Now you can choose where to place the plant in the ecological tank."
+    },
+    {
+      "ID": 5018,
+      "Text": "You can change the placement position using keyboard [W][A][S][D][Z][X]."
+    },
+    {
+      "ID": 5019,
+      "Text": "When you've chosen the position, press keyboard [Space] to confirm the placement. Then the task of placing plants is up to you."
+    },
+    {
+      "ID": 5020,
+      "Text": "As you know, an ecosystem has many attributes that need to be balanced for the animals and plants to grow and reproduce."
+    },
+    {
+      "ID": 5021,
+      "Text": "So we need to always pay attention to the various attributes in the ecological tank, keeping them all in a healthy state."
+    },
+    {
+      "ID": 5022,
+      "Text": "Vegetarian food is the food for herbivores. This is very important, let's feed some now."
+    },
+    {
+      "ID": 5023,
+      "Text": "Nutrition is equally important. If the nutrition in the ecological tank is insufficient, plants will lose the ability to maintain ecological balance. Let's add some too."
+    },
+    {
+      "ID": 5025,
+      "Text": "Do you find it boring to always look at the ecological tank from a fixed angle?"
+    },
+    {
+      "ID": 5026,
+      "Text": "Then let's try adjusting the angle."
+    },
+    {
+      "ID": 5027,
+      "Text": "Here you can not only adjust the angle, but also change the position of the ecological tank on the desktop. Feel free to try everything."
+    },
+    {
+      "ID": 10011,
+      "Text": "Cardinal Tetra"
+    },
+    {
+      "ID": 10012,
+      "Text": "Paracheirodon axelrodi, order Characiformes, family Characidae, genus Paracheirodon. Native to the Amazon River Basin in South America. Body length 4-5 cm, spindle-shaped, laterally compressed, with shallow arc-shaped dorsal and ventral margins."
+    },
+    {
+      "ID": 10021,
+      "Text": "Neon Tetra"
+    },
+    {
+      "ID": 10022,
+      "Text": "Paracheirodon innesi, order Characiformes, family Characidae, genus Paracheirodon. Native to the Amazon River Basin in South America. Body length 4-5 cm, spindle-shaped, laterally compressed, with shallow arc-shaped dorsal and ventral margins."
+    },
+    {
+      "ID": 10031,
+      "Text": "Harlequin Rasbora"
+    },
+    {
+      "ID": 10032,
+      "Text": "Trigonostigma heteromorpha, order Cypriniformes, family Cyprinidae, genus Trigonostigma. Native to Thailand, Malaysia, and Indonesia. Body length 4-6 cm, spindle-shaped, slightly laterally compressed, with a forked tail fin."
+    },
+    {
+      "ID": 10041,
+      "Text": "Zebrafish"
+    },
+    {
+      "ID": 10042,
+      "Text": "Danio rerio, order Cypriniformes, family Cyprinidae, genus Danio. Native to streams in Bangladesh, India, Pakistan, Myanmar, and Nepal. Body length 4-5 cm, spindle-shaped, with a long, forked tail fin."
+    },
+    {
+      "ID": 10051,
+      "Text": "Butterfly Zebrafish"
+    },
+    {
+      "ID": 10052,
+      "Text": "Danio rerio (Butterfly variety), order Cypriniformes, family Cyprinidae, genus Danio. Native to streams in Bangladesh, India, Pakistan, Myanmar, and Nepal. Body length 4-5 cm, spindle-shaped, with a long, forked tail fin."
+    },
+    {
+      "ID": 10061,
+      "Text": "Electric Blue Zebrafish"
+    },
+    {
+      "ID": 10062,
+      "Text": "Danio rerio (Electric Blue variety), order Cypriniformes, family Cyprinidae, genus Danio. Native to streams in Bangladesh, India, Pakistan, Myanmar, and Nepal. Body length 4-5 cm, spindle-shaped, with a long, forked tail fin."
+    },
+    {
+      "ID": 10071,
+      "Text": "Black Neon Tetra"
+    },
+    {
+      "ID": 10072,
+      "Text": "Hyphessobrycon herbertaxelrodi, order Characiformes, family Characidae, genus Hyphessobrycon. Native to the Amazon River Basin in South America. Body length 4-5 cm, spindle-shaped, laterally compressed, with shallow arc-shaped dorsal and ventral margins."
+    },
+    {
+      "ID": 10081,
+      "Text": "Tiger Barb"
+    },
+    {
+      "ID": 10082,
+      "Text": "Puntigrus tetrazona, order Cypriniformes, family Cyprinidae. Native to Indonesia and Malaysia. Body length 4-5 cm, high-bodied, laterally compressed, slightly oval-shaped. The body has four thick vertical stripes, resembling a tiger's pattern, hence the name Tiger Barb."
+    },
+    {
+      "ID": 10091,
+      "Text": "Spotted Zebrafish"
+    },
+    {
+      "ID": 10092,
+      "Text": "Danio nigrofasciatus, order Cypriniformes, family Cyprinidae, genus Danio. Native to streams in Bangladesh, India, Pakistan, Myanmar, and Nepal. Body length 4-5 cm, spindle-shaped, with a long, forked tail fin."
+    },
+    {
+      "ID": 10101,
+      "Text": "Angelfish"
+    },
+    {
+      "ID": 10102,
+      "Text": "Pterophyllum scalare, order Cichliformes, family Cichlidae, genus Pterophyllum. Native to the Amazon River Basin. Body length 12-15 cm, flattened body, pointed head, diamond-shaped body, triangular dorsal and anal fins."
+    },
+    {
+      "ID": 20011,
+      "Text": "Dwarf Hairgrass"
+    },
+    {
+      "ID": 20012,
+      "Text": "Eleocharis parvula, family Cyperaceae, genus Eleocharis. Distributed in Russia, Korea, Japan, India, Myanmar, Vietnam, and China. Numerous stems, fine as hair, densely clustered like felt."
+    },
+    {
+      "ID": 20021,
+      "Text": "Red Ludwigia"
+    },
+    {
+      "ID": 20022,
+      "Text": "Ludwigia repens, dicotyledonous emergent stem plant. Native to Southeast Asia, now widely distributed in aquarium landscapes worldwide."
+    },
+    {
+      "ID": 20031,
+      "Text": "Green Ludwigia"
+    },
+    {
+      "ID": 20032,
+      "Text": "Ludwigia palustris, dicotyledonous emergent stem plant. Native to Southeast Asia, now widely distributed in aquarium landscapes worldwide."
+    },
+    {
+      "ID": 20041,
+      "Text": "Monte Carlo"
+    },
+    {
+      "ID": 20042,
+      "Text": "Hemianthus callitrichoides, family Scrophulariaceae, dicotyledonous plant, emergent aquatic grass. One of the smallest aquatic plants, discovered in Havana, Cuba. Emersed and submerged forms are similar."
+    },
+    {
+      "ID": 20051,
+      "Text": "Plant Name"
+    },
+    {
+      "ID": 20052,
+      "Text": "Plant Name"
+    },
+    {
+      "ID": 20061,
+      "Text": "Plant Name"
+    },
+    {
+      "ID": 20062,
+      "Text": "Plant Name"
+    },
+    {
+      "ID": 30010,
+      "Text": "Blocks that can be placed in the ecological tank."
+    },
+    {
+      "ID": 30011,
+      "Text": "Block"
+    },
+    {
+      "ID": 30021,
+      "Text": "Block"
+    },
+    {
+      "ID": 30031,
+      "Text": "Block"
+    },
+    {
+      "ID": 30041,
+      "Text": "Block"
+    },
+    {
+      "ID": 30051,
+      "Text": "Block"
+    },
+    {
+      "ID": 30061,
+      "Text": "Block"
+    },
+    {
+      "ID": 30071,
+      "Text": "Block"
+    },
+    {
+      "ID": 30081,
+      "Text": "Block"
+    },
+    {
+      "ID": 30091,
+      "Text": "Block"
+    },
+    {
+      "ID": 30101,
+      "Text": "Block"
+    },
+    {
+      "ID": 30111,
+      "Text": "Block"
+    },
+    {
+      "ID": 30121,
+      "Text": "Block"
+    },
+    {
+      "ID": 30131,
+      "Text": "Block"
+    },
+    {
+      "ID": 30141,
+      "Text": "Block"
+    },
+    {
+      "ID": 30151,
+      "Text": "Block"
+    },
+    {
+      "ID": 30161,
+      "Text": "Block"
+    },
+    {
+      "ID": 30171,
+      "Text": "Block"
+    },
+    {
+      "ID": 30181,
+      "Text": "Block"
+    },
+    {
+      "ID": 30191,
+      "Text": "Block"
+    },
+    {
+      "ID": 30201,
+      "Text": "Block"
+    },
+    {
+      "ID": 30211,
+      "Text": "Block"
+    },
+    {
+      "ID": 30221,
+      "Text": "Block"
+    },
+    {
+      "ID": 30231,
+      "Text": "Block"
+    },
+    {
+      "ID": 30241,
+      "Text": "Block"
+    },
+    {
+      "ID": 30251,
+      "Text": "Block"
+    },
+    {
+      "ID": 30261,
+      "Text": "Block"
+    },
+    {
+      "ID": 30271,
+      "Text": "Block"
+    },
+    {
+      "ID": 30281,
+      "Text": "Block"
+    },
+    {
+      "ID": 30291,
+      "Text": "Block"
+    },
+    {
+      "ID": 30301,
+      "Text": "Block"
+    },
+    {
+      "ID": 30311,
+      "Text": "Block"
+    },
+    {
+      "ID": 30321,
+      "Text": "Block"
+    },
+    {
+      "ID": 30331,
+      "Text": "Block"
+    },
+    {
+      "ID": 30341,
+      "Text": "Block"
+    },
+    {
+      "ID": 30351,
+      "Text": "Block"
+    },
+    {
+      "ID": 30361,
+      "Text": "Block"
+    },
+    {
+      "ID": 30371,
+      "Text": "Block"
+    },
+    {
+      "ID": 30381,
+      "Text": "Block"
+    },
+    {
+      "ID": 30391,
+      "Text": "Block"
+    },
+    {
+      "ID": 30401,
+      "Text": "Block"
+    },
+    {
+      "ID": 30411,
+      "Text": "Block"
+    },
+    {
+      "ID": 30421,
+      "Text": "Block"
+    },
+    {
+      "ID": 30431,
+      "Text": "Block"
+    },
+    {
+      "ID": 30441,
+      "Text": "Block"
+    },
+    {
+      "ID": 30451,
+      "Text": "Block"
+    },
+    {
+      "ID": 30461,
+      "Text": "Block"
+    },
+    {
+      "ID": 30471,
+      "Text": "Block"
+    },
+    {
+      "ID": 30481,
+      "Text": "Block"
+    },
+    {
+      "ID": 30491,
+      "Text": "Block"
+    },
+    {
+      "ID": 30501,
+      "Text": "Block"
+    },
+    {
+      "ID": 40011,
+      "Text": "Boat"
+    },
+    {
+      "ID": 40012,
+      "Text": "Decorations that can be placed in the ecological tank. They are only for aesthetics and serve no other purpose."
+    },
+    {
+      "ID": 40021,
+      "Text": "House"
+    },
+    {
+      "ID": 40022,
+      "Text": "Decorations that can be placed in the ecological tank. They are only for aesthetics and serve no other purpose."
+    },
+    {
+      "ID": 40031,
+      "Text": "Lighthouse"
+    },
+    {
+      "ID": 40032,
+      "Text": "Decorations that can be placed in the ecological tank. They are only for aesthetics and serve no other purpose."
+    },
+    {
+      "ID": 40041,
+      "Text": "Treasure Chest"
+    },
+    {
+      "ID": 40042,
+      "Text": "Decorations that can be placed in the ecological tank. They are only for aesthetics and serve no other purpose."
+    },
+    {
+      "ID": 50011,
+      "Text": "Nutrition Maintainer"
+    },
+    {
+      "ID": 50012,
+      "Text": "When nutrition is below 50%, it will be automatically replenished to 50%. Each point of nutrition replenished costs 1 Eco-Coin."
+    },
+    {
+      "ID": 50021,
+      "Text": "Automatic Vending Machine"
+    },
+    {
+      "ID": 50022,
+      "Text": "Automatically sells animals in the ecological tank that meet the conditions."
+    },
+    {
+      "ID": 50031,
+      "Text": "Maintain specified oxygen level"
+    },
+    {
+      "ID": 50032,
+      "Text": "Maintain specified oxygen level"
+    },
+    {
+      "ID": 50041,
+      "Text": "Maintain specified carbon dioxide level"
+    },
+    {
+      "ID": 50042,
+      "Text": "Maintain specified carbon dioxide level"
+    },
+    {
+      "ID": 50051,
+      "Text": "Maintain specified waste level"
+    },
+    {
+      "ID": 50052,
+      "Text": "Maintain specified waste level"
+    },
+    {
+      "ID": 50061,
+      "Text": "Maintain specified meat food level"
+    },
+    {
+      "ID": 50062,
+      "Text": "Maintain specified meat food level"
+    },
+    {
+      "ID": 50071,
+      "Text": "Automatically Sell Fish"
+    },
+    {
+      "ID": 50072,
+      "Text": "Automatically Sell Fish"
+    },
+    {
+      "ID": 50081,
+      "Text": "Automatically Recycle Fish"
+    },
+    {
+      "ID": 50082,
+      "Text": "Automatically Recycle Fish"
+    },
+    {
+      "ID": 50091,
+      "Text": "Automatically Place Fish"
+    },
+    {
+      "ID": 50092,
+      "Text": "Automatically Place Fish"
+    },
+    {
+      "ID": 70011,
+      "Text": "Ecological Tank"
+    },
+    {
+      "ID": 70012,
+      "Text": "Can create a 60cm*40cm*30cm ecological tank"
+    },
+    {
+      "ID": 70021,
+      "Text": "Ecological Tank"
+    },
+    {
+      "ID": 70022,
+      "Text": "Can create an 80cm*40cm*30cm ecological tank"
+    },
+    {
+      "ID": 70031,
+      "Text": "Ecological Tank"
+    },
+    {
+      "ID": 70032,
+      "Text": "Can create a 40cm*80cm*30cm ecological tank"
+    },
+    {
+      "ID": 70041,
+      "Text": "Ecological Tank"
+    },
+    {
+      "ID": 70042,
+      "Text": "Can create a 100cm*50cm*40cm ecological tank"
+    },
+    {
+      "ID": 70051,
+      "Text": "Ecological Tank"
+    },
+    {
+      "ID": 70052,
+      "Text": "Can create a 50cm*100cm*40cm ecological tank"
+    },
+    {
+      "ID": 70061,
+      "Text": "Ecological Tank"
+    },
+    {
+      "ID": 70062,
+      "Text": "Can create a 120cm*60cm*40cm ecological tank"
+    },
+    {
+      "ID": 70071,
+      "Text": "Ecological Tank"
+    },
+    {
+      "ID": 70072,
+      "Text": "Can create a 60cm*120cm*40cm ecological tank"
+    },
+    {
+      "ID": 70081,
+      "Text": "Ecological Tank"
+    },
+    {
+      "ID": 70082,
+      "Text": "Can create a 140cm*70cm*40cm ecological tank"
+    },
+    {
+      "ID": 70091,
+      "Text": "Ecological Tank"
+    },
+    {
+      "ID": 70092,
+      "Text": "Can create a 70cm*140cm*40cm ecological tank"
+    },
+    {
+      "ID": 70101,
+      "Text": "Ecological Tank"
+    },
+    {
+      "ID": 70102,
+      "Text": "Can create a 160cm*80cm*50cm ecological tank"
+    },
+    {
+      "ID": 70111,
+      "Text": "Ecological Tank"
+    },
+    {
+      "ID": 70112,
+      "Text": "Can create an 80cm*160cm*50cm ecological tank"
+    },
+    {
+      "ID": 70121,
+      "Text": "Ecological Tank"
+    },
+    {
+      "ID": 70122,
+      "Text": "Can create an 180cm*90cm*50cm ecological tank"
+    },
+    {
+      "ID": 70131,
+      "Text": "Ecological Tank"
+    },
+    {
+      "ID": 70132,
+      "Text": "Can create a 90cm*180cm*50cm ecological tank"
+    },
+    {
+      "ID": 70141,
+      "Text": "Ecological Tank"
+    },
+    {
+      "ID": 70142,
+      "Text": "Can create a 200cm*100cm*50cm ecological tank"
+    },
+    {
+      "ID": 70151,
+      "Text": "Ecological Tank"
+    },
+    {
+      "ID": 70152,
+      "Text": "Can create a 100cm*200cm*50cm ecological tank"
+    },
+    {
+      "ID": 80011,
+      "Text": "Ecological Balance"
+    },
+    {
+      "ID": 80012,
+      "Text": "In the ecological tank, animals consume food and oxygen while producing carbon dioxide and waste. Plants, on the other hand, produce food and oxygen while consuming carbon dioxide and waste, thus creating an ecological balance between animals and plants."
+    },
+    {
+      "ID": 80021,
+      "Text": "Ecological Tank"
+    },
+    {
+      "ID": 80022,
+      "Text": "Multiple ecological tanks can be created, each being an independent ecosystem."
+    },
+    {
+      "ID": 80031,
+      "Text": "Space"
+    },
+    {
+      "ID": 80032,
+      "Text": "Depending on the size of the ecological tank, the available space varies. Animals will only reproduce and can be placed from the warehouse into the ecological tank when there is sufficient space. Additionally, the space required by each animal differs."
+    },
+    {
+      "ID": 80041,
+      "Text": "Field Collection"
+    },
+    {
+      "ID": 80042,
+      "Text": "Travel to various locations worldwide to collect animals and plants. Each location has its own unique flora and fauna. New decorations, devices, ecological tanks, etc., can also be obtained from these locations."
+    },
+    {
+      "ID": 80051,
+      "Text": "Animals"
+    },
+    {
+      "ID": 80052,
+      "Text": "Various animals can be raised in the ecological tank. They grow and reproduce, increasing the number of animals in the tank."
+    },
+    {
+      "ID": 80061,
+      "Text": "Animal Health"
+    },
+    {
+      "ID": 80062,
+      "Text": "Each animal species has a tolerance level for the environment. When the ecological tank's environment fails to meet an animal's living requirements, its health gradually declines until death. If the environment improves, the animal's health will gradually recover."
+    },
+    {
+      "ID": 80071,
+      "Text": "Animal Quality"
+    },
+    {
+      "ID": 80072,
+      "Text": "Each animal has a quality level determined by its parents. Higher-quality animals can be sold for better prices."
+    },
+    {
+      "ID": 80081,
+      "Text": "Animal Reproduction"
+    },
+    {
+      "ID": 80082,
+      "Text": "When two adult animals of the same species are present in the tank, they will reproduce."
+    },
+    {
+      "ID": 80091,
+      "Text": "Animal Death"
+    },
+    {
+      "ID": 80092,
+      "Text": "When an animal dies, it consumes oxygen more rapidly and produces more carbon dioxide and waste. Therefore, dead animals often worsen the tank's environment. Remember to remove dead animals from the ecological tank early."
+    },
+    {
+      "ID": 80101,
+      "Text": "Plants"
+    },
+    {
+      "ID": 80102,
+      "Text": "Plants release oxygen and remove carbon dioxide and waste from the ecological tank, thereby maintaining ecological balance. Plants grow over time, and their ability to maintain ecological balance gradually improves."
+    },
+    {
+      "ID": 80111,
+      "Text": "Plant Consumption"
+    },
+    {
+      "ID": 80112,
+      "Text": "Plants consume nutrition. When nutrition is insufficient in the ecological tank, plants cease metabolism and cannot maintain ecological balance. Therefore, it is essential to monitor nutrition levels in the tank regularly."
+    },
+    {
+      "ID": 80121,
+      "Text": "Devices"
+    },
+    {
+      "ID": 80122,
+      "Text": "Various devices can be installed in the ecological tank to stabilize the ecological balance."
+    },
+    {
+      "ID": 80131,
+      "Text": "Adjust Size"
+    },
+    {
+      "ID": 80132,
+      "Text": "Adjust the position and angle of each ecological tank under the \"Adjust Size\" option in the ecological tank information interface for the best viewing angle."
+    },
+    {
+      "ID": 80141,
+      "Text": "Edit Ecological Tank"
+    },
+    {
+      "ID": 80142,
+      "Text": "Under the \"Edit Ecological Tank\" option in the ecological tank information interface, adjust the contents of each tank to achieve better ecological balance and aesthetics."
+    },
+    {
+      "ID": 90011,
+      "Text": "Swamp Wetland Ticket"
+    },
+    {
+      "ID": 90012,
+      "Text": "Unlocks new field collection locations."
+    },
+    {
+      "ID": 90021,
+      "Text": "Unlock Condition for Pool 2"
+    },
+    {
+      "ID": 90022,
+      "Text": "Unlock Condition for Pool 2"
+    },
+    {
+      "ID": 90031,
+      "Text": "Unlock Condition for Pool 3"
+    },
+    {
+      "ID": 90032,
+      "Text": "Unlock Condition for Pool 3"
+    },
+    {
+      "ID": 90041,
+      "Text": "Unlock Condition for Pool 4"
+    },
+    {
+      "ID": 90042,
+      "Text": "Unlock Condition for Pool 4"
+    },
+    {
+      "ID": 90051,
+      "Text": "Unlock Condition for Pool 5"
+    },
+    {
+      "ID": 90052,
+      "Text": "Unlock Condition for Pool 5"
+    },
+    {
+      "ID": 90061,
+      "Text": "Unlock Condition for Pool 6"
+    },
+    {
+      "ID": 90062,
+      "Text": "Unlock Condition for Pool 6"
+    },
+    {
+      "ID": 90071,
+      "Text": "Unlock Condition for Pool 7"
+    },
+    {
+      "ID": 90072,
+      "Text": "Unlock Condition for Pool 7"
+    },
+    {
+      "ID": 90081,
+      "Text": "Unlock Condition for Pool 8"
+    },
+    {
+      "ID": 90082,
+      "Text": "Unlock Condition for Pool 8"
+    },
+    {
+      "ID": 90091,
+      "Text": "Unlock Condition for Pool 9"
+    },
+    {
+      "ID": 90092,
+      "Text": "Unlock Condition for Pool 9"
+    },
+    {
+      "ID": 90101,
+      "Text": "Unlock Condition for Pool 10"
+    },
+    {
+      "ID": 90102,
+      "Text": "Unlock Condition for Pool 10"
+    },
+    {
+      "ID": 100011,
+      "Text": "Outskirts"
+    },
+    {
+      "ID": 100021,
+      "Text": "Swamp Wetland"
+    },
+    {
+      "ID": 100031,
+      "Text": "Field Collection Name"
+    },
+    {
+      "ID": 100041,
+      "Text": "Field Collection Name"
+    },
+    {
+      "ID": 100051,
+      "Text": "Field Collection Name"
+    },
+    {
+      "ID": 100061,
+      "Text": "Field Collection Name"
+    },
+    {
+      "ID": 100071,
+      "Text": "Field Collection Name"
+    },
+    {
+      "ID": 100081,
+      "Text": "Field Collection Name"
+    },
+    {
+      "ID": 100091,
+      "Text": "Field Collection Name"
+    },
+    {
+      "ID": 100101,
+      "Text": "Field Collection Name"
+    },
+    {
+      "ID": 110011,
+      "Text": "Default Layout"
+    },
+    {
+      "ID": 110012,
+      "Text": "Empty Layout"
+    },
+    {
+      "ID": 110013,
+      "Text": "Torii"
+    },
+    {
+      "ID": 110021,
+      "Text": "Torii layout for 40x80x30 ecological tank"
+    },
+    {
+      "ID": 110022,
+      "Text": "Empty layout for 40x80x30 ecological tank without any blocks or decorations"
+    },
+    {
+      "ID": 110023,
+      "Text": "Torii layout for 60x40x30 ecological tank"
+    },
+    {
+      "ID": 110024,
+      "Text": "Empty layout for 60x40x30 ecological tank without any blocks or decorations"
+    },
+    {
+      "ID": 110025,
+      "Text": "Torii layout for 80x40x30 ecological tank"
+    },
+    {
+      "ID": 110026,
+      "Text": "Empty layout for 80x40x30 ecological tank without any blocks or decorations"
+    },
+    {
+      "ID": 151,
+      "Text": "Switch"
+    },
+    {
+      "ID": 152,
+      "Text": "Switch Ecological Tank"
+    },
+    {
+      "ID": 153,
+      "Text": "Create New Ecological Tank"
+    },
+    {
+      "ID": 154,
+      "Text": "Select Size"
+    },
+    {
+      "ID": 155,
+      "Text": "Select Layout"
+    },
+    {
+      "ID": 156,
+      "Text": "Create"
+    },
+    {
+      "ID": 157,
+      "Text": "Unknown"
+    },
+    {
+      "ID": 158,
+      "Text": "Please select ecological tank size first"
+    },
+    {
+      "ID": 159,
+      "Text": "Hide"
+    },
+    {
+      "ID": 160,
+      "Text": "Hide blocks above cursor"
+    },
+    {
+      "ID": 161,
+      "Text": "Hide"
+    },
+    {
+      "ID": 162,
+      "Text": "Hide ecological tank"
+    },
+    {
+      "ID": 163,
+      "Text": "Pin to Top"
+    },
+    {
+      "ID": 164,
+      "Text": "Pin ecological tank to the top layer"
+    }
+  ]
+}

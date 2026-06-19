@@ -1,0 +1,60 @@
+{
+  "fields": [
+    "ID",
+    "GatherAddressID",
+    "PlantID",
+    "Weight",
+    "Sort"
+  ],
+  "types": [
+    "string",
+    "string",
+    "string",
+    "int",
+    "int"
+  ],
+  "data": [
+    {
+      "ID": "12001",
+      "GatherAddressID": "10001",
+      "PlantID": "2001",
+      "Weight": 300,
+      "Sort": 1
+    },
+    {
+      "ID": "12002",
+      "GatherAddressID": "10001",
+      "PlantID": "2002",
+      "Weight": 250,
+      "Sort": 2
+    },
+    {
+      "ID": "12003",
+      "GatherAddressID": "10002",
+      "PlantID": "2003",
+      "Weight": 150,
+      "Sort": 3
+    },
+    {
+      "ID": "12004",
+      "GatherAddressID": "10002",
+      "PlantID": "2004",
+      "Weight": 300,
+      "Sort": 4
+    },
+    {
+      "ID": "12005",
+      "GatherAddressID": "10003",
+      "PlantID": "2005",
+      "Weight": 250,
+      "Sort": 5
+    },
+    {
+      "ID": "12006",
+      "GatherAddressID": "10003",
+      "PlantID": "2006",
+      "Weight": 150,
+      "Sort": 6
+    }
+  ]
+}

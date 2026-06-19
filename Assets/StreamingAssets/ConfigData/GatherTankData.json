@@ -1,0 +1,88 @@
+{
+  "fields": [
+    "ID",
+    "GatherAddressID",
+    "TankID",
+    "Weight",
+    "Sort"
+  ],
+  "types": [
+    "string",
+    "string",
+    "string",
+    "int",
+    "int"
+  ],
+  "data": [
+    {
+      "ID": "17002",
+      "GatherAddressID": "10001",
+      "TankID": "7002",
+      "Weight": 100,
+      "Sort": 1
+    },
+    {
+      "ID": "17003",
+      "GatherAddressID": "10002",
+      "TankID": "7003",
+      "Weight": 100,
+      "Sort": 2
+    },
+    {
+      "ID": "17004",
+      "GatherAddressID": "10003",
+      "TankID": "7004",
+      "Weight": 100,
+      "Sort": 3
+    },
+    {
+      "ID": "17005",
+      "GatherAddressID": "10004",
+      "TankID": "7005",
+      "Weight": 100,
+      "Sort": 4
+    },
+    {
+      "ID": "17006",
+      "GatherAddressID": "10005",
+      "TankID": "7006",
+      "Weight": 100,
+      "Sort": 5
+    },
+    {
+      "ID": "17007",
+      "GatherAddressID": "10006",
+      "TankID": "7007",
+      "Weight": 100,
+      "Sort": 6
+    },
+    {
+      "ID": "17008",
+      "GatherAddressID": "10007",
+      "TankID": "7008",
+      "Weight": 100,
+      "Sort": 7
+    },
+    {
+      "ID": "17009",
+      "GatherAddressID": "10008",
+      "TankID": "7009",
+      "Weight": 100,
+      "Sort": 8
+    },
+    {
+      "ID": "17010",
+      "GatherAddressID": "10009",
+      "TankID": "7010",
+      "Weight": 100,
+      "Sort": 9
+    },
+    {
+      "ID": "17011",
+      "GatherAddressID": "10010",
+      "TankID": "7011",
+      "Weight": 100,
+      "Sort": 10
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir:*)",
+      "Bash(if [ ! -d \"C:\\1\\server\\Assets\\Resources\" ])",
+      "Bash(then mkdir \"C:\\1\\server\\Assets\\Resources\")",
+      "Bash(fi)",
+      "Bash(if [ ! -d \"C:\\1\\server\\Assets\\Resources\\Fonts\" ])",
+      "Bash(then mkdir \"C:\\1\\server\\Assets\\Resources\\Fonts\")",
+      "Bash(cat:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

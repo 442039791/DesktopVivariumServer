@@ -1,0 +1,25 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.0.49f1
+CRC: 59743091
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b134a0176e50a2c065d9d5682f075636
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 04fe97b7fc2f56a12f72365bd4c81609
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 29e0913e56cc091fdd0176c21acc4888
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/AssetsPackage/Sound/BoxOpen.mp3
+- Assets/AssetsPackage/Channel/Sound.bytes
+- Assets/AssetsPackage/Sound/ButtonClick.mp3
+Dependencies: []

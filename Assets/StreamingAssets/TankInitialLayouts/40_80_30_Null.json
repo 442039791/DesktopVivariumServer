@@ -1,0 +1,24 @@
+{
+  "layoutId": "null_40_80_30",
+  "layoutName": "Id:110012",
+  "description": "Id:110022",
+  "sizeX": 40,
+  "sizeY": 80,
+  "sizeZ": 30,
+  "iconName": "",
+  "sortOrder": 1,
+  "terrainData": "{\"Terrain\": {\"Pos\": {\"x\": 0.0, \"y\": 0.0, \"z\": 0.0}, \"ID\": 0, \"Modifications\": []}}",
+  "version": "1.0",
+  "plants": [],
+  "decorations": [],
+  "defaultCameraPos": {
+    "angleX": -87.0,
+    "angleY": 6.0,
+    "radius": 7.0,
+    "targetPos": {
+      "x": 1.0,
+      "y": 1.5,
+      "z": 0.75
+    }
+  }
+}

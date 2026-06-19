@@ -1,0 +1,6 @@
+﻿ID,备注列,名称,图标资源,美术资源,购买价格
+ID,,name,iconResource,artResources,Price
+int,,string,string,string[],int
+601,,601,,,0
+602,,602,,,0
+603,,603,,,0

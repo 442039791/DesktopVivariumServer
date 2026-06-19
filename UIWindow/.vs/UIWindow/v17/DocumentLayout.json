@@ -1,0 +1,101 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\money\\UIWindow\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{90EE449E-8CA5-0471-6604-2F97A8ADA08C}|Assembly-CSharp.csproj|c:\\money\\uiwindow\\assets\\scripts\\gather\\gather.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90EE449E-8CA5-0471-6604-2F97A8ADA08C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gather\\gather.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90EE449E-8CA5-0471-6604-2F97A8ADA08C}|Assembly-CSharp.csproj|C:\\money\\UIWindow\\assets\\scripts\\suifw\\uieffect\\listcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90EE449E-8CA5-0471-6604-2F97A8ADA08C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\suifw\\uieffect\\listcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90EE449E-8CA5-0471-6604-2F97A8ADA08C}|Assembly-CSharp.csproj|C:\\money\\UIWindow\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90EE449E-8CA5-0471-6604-2F97A8ADA08C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90EE449E-8CA5-0471-6604-2F97A8ADA08C}|Assembly-CSharp.csproj|C:\\money\\UIWindow\\assets\\scripts\\biotank\\biotankmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90EE449E-8CA5-0471-6604-2F97A8ADA08C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\biotank\\biotankmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90EE449E-8CA5-0471-6604-2F97A8ADA08C}|Assembly-CSharp.csproj|C:\\money\\UIWindow\\assets\\scripts\\plant\\plant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90EE449E-8CA5-0471-6604-2F97A8ADA08C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\plant\\plant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Gather.cs",
+              "DocumentMoniker": "C:\\money\\UIWindow\\Assets\\Scripts\\Gather\\Gather.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Gather\\Gather.cs",
+              "ToolTip": "C:\\money\\UIWindow\\Assets\\Scripts\\Gather\\Gather.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Gather\\Gather.cs",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAowIAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T08:55:20.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ListController.cs",
+              "DocumentMoniker": "C:\\money\\UIWindow\\Assets\\Scripts\\SUIFW\\UIEffect\\ListController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SUIFW\\UIEffect\\ListController.cs",
+              "ToolTip": "C:\\money\\UIWindow\\Assets\\Scripts\\SUIFW\\UIEffect\\ListController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SUIFW\\UIEffect\\ListController.cs",
+              "ViewState": "AQIAAAICAAAAAAAAAAAxwBQCAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T08:20:01.844Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Plant.cs",
+              "DocumentMoniker": "C:\\money\\UIWindow\\Assets\\Scripts\\Plant\\Plant.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Plant\\Plant.cs",
+              "ToolTip": "C:\\money\\UIWindow\\Assets\\Scripts\\Plant\\Plant.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Plant\\Plant.cs",
+              "ViewState": "AQIAAM4AAAAAAAAAAAAqwOQAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T08:04:05.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\money\\UIWindow\\Assets\\Scripts\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
+              "ToolTip": "C:\\money\\UIWindow\\Assets\\Scripts\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
+              "ViewState": "AQIAAFcCAAAAAAAAAAAnwHECAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T02:57:30.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BioTankManager.cs",
+              "DocumentMoniker": "C:\\money\\UIWindow\\Assets\\Scripts\\BioTank\\BioTankManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BioTank\\BioTankManager.cs",
+              "ToolTip": "C:\\money\\UIWindow\\Assets\\Scripts\\BioTank\\BioTankManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BioTank\\BioTankManager.cs",
+              "ViewState": "AQIAALIBAAAAAAAAAAAAAMABAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T06:17:32.302Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

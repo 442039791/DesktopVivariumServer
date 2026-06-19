@@ -1,0 +1,25 @@
+{
+  "fields": [
+    "ID",
+    "Name",
+    "Describe",
+    "Icon",
+    "Sort"
+  ],
+  "types": [
+    "int",
+    "string",
+    "string",
+    "string",
+    "int"
+  ],
+  "data": [
+    {
+      "ID": 7001,
+      "Name": "70011",
+      "Describe": "70012",
+      "Icon": "7001",
+      "Sort": 1
+    }
+  ]
+}

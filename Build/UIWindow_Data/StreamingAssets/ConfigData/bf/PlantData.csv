@@ -1,0 +1,3 @@
+ID,备注列,名称,美术资源,购买价格,每分钟提供的食物数量,每分钟消耗的二氧化碳数量,每分钟产生的氧气数量,每分钟营养消耗的数量,每分钟消耗的垃圾,垃圾的最大含量百分比,因为垃圾过量死亡时,因为营养不足死亡时,成年时间,死亡后二氧化碳的产出量,死亡后氧气的消耗量,死亡后垃圾的产出量
+ID,,name,artResources,Price,FoodNum,CO2Cost,O2Produce,NutrientCost,WasteCost,WasteMaxProportion,WasteDeath,NutrientDeath,AdultTime,DeathCO2Produce,DeathO2Cost,DeathWasteProduce
+string,,string,string[],int,float,float,float,float,float,float,int,int,int,float,float,float

@@ -1,0 +1,40 @@
+{
+  "fields": [
+    "ID",
+    "Money",
+    "Admission",
+    "Cube",
+    "Facilities",
+    "Grid",
+    "Tank",
+    "Decoration",
+    "Fish",
+    "Plant"
+  ],
+  "types": [
+    "int",
+    "int",
+    "string[]",
+    "string[]",
+    "string[]",
+    "string[]",
+    "string[]",
+    "string[]",
+    "string[]",
+    "string[]"
+  ],
+  "data": [
+    {
+      "ID": 1,
+      "Money": 1000,
+      "Admission": "[10001]",
+      "Cube": "[3001,3002,3003]",
+      "Facilities": "[]",
+      "Grid": "[1]",
+      "Tank": "[7001]",
+      "Decoration": "[]",
+      "Fish": "[1001]",
+      "Plant": "[2001]"
+    }
+  ]
+}

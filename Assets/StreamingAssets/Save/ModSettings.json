@@ -1,0 +1,31 @@
+{
+  "ModSystemEnabled": true,
+  "ModSettings": [
+    {
+      "ModId": "com.lib.harmony",
+      "IsEnabled": true,
+      "LoadOrder": -1000
+    },
+    {
+      "ModId": "com.example.newfish",
+      "IsEnabled": true,
+      "LoadOrder": 1
+    },
+    {
+      "ModId": "com.example.korean",
+      "IsEnabled": true,
+      "LoadOrder": 2
+    },
+    {
+      "ModId": "com.example.russian",
+      "IsEnabled": true,
+      "LoadOrder": 3
+    },
+    {
+      "ModId": "com.example.localization",
+      "IsEnabled": true,
+      "LoadOrder": 4
+    }
+  ],
+  "LastModified": "2025-12-28 09:00:00"
+}

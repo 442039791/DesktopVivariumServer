@@ -1,0 +1,92 @@
+{
+  "fields": [
+    "ID",
+    "Name",
+    "Describe",
+    "IconSprite",
+    "Sort",
+    "Display"
+  ],
+  "types": [
+    "string",
+    "string",
+    "string",
+    "string",
+    "int",
+    "int"
+  ],
+  "data": [
+    {
+      "ID": "9001",
+      "Name": "90011",
+      "Describe": "90012",
+      "IconSprite": "90011",
+      "Sort": 1,
+      "Display": 1
+    },
+    {
+      "ID": "9002",
+      "Name": "90021",
+      "Describe": "90022",
+      "IconSprite": "90021",
+      "Sort": 2,
+      "Display": 1
+    },
+    {
+      "ID": "9003",
+      "Name": "90031",
+      "Describe": "90032",
+      "IconSprite": "90031",
+      "Sort": 3,
+      "Display": 1
+    },
+    {
+      "ID": "9004",
+      "Name": "90041",
+      "Describe": "90042",
+      "IconSprite": "90041",
+      "Sort": 4,
+      "Display": 1
+    },
+    {
+      "ID": "9005",
+      "Name": "90051",
+      "Describe": "90052",
+      "IconSprite": "90051",
+      "Sort": 5,
+      "Display": 1
+    },
+    {
+      "ID": "9006",
+      "Name": "90061",
+      "Describe": "90062",
+      "IconSprite": "90061",
+      "Sort": 6,
+      "Display": 1
+    },
+    {
+      "ID": "9007",
+      "Name": "90071",
+      "Describe": "90072",
+      "IconSprite": "90071",
+      "Sort": 7,
+      "Display": 1
+    },
+    {
+      "ID": "9008",
+      "Name": "90081",
+      "Describe": "90082",
+      "IconSprite": "90081",
+      "Sort": 8,
+      "Display": 1
+    },
+    {
+      "ID": "9009",
+      "Name": "90091",
+      "Describe": "90092",
+      "IconSprite": "90091",
+      "Sort": 9,
+      "Display": 1
+    }
+  ]
+}

@@ -1,0 +1,324 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.0.49f1
+CRC: 2740490448
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f6e56f3f29e1a12619f335a255cf7977
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c3683b027f157f153c211213744dde8a
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 779a49fc9ba74d43514e71ef6d49a336
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 20
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 81
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4df0a16599c9d794eb9f3833290a13b5, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 73fd2e935b91b054cb212549b1e32efc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 95e3bc1809abc494b9145539fff7dd35, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 923d076a45eb7fc47b4ba25133b0da38, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8b16e664aaec307419dc498e4dc3d846, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 885e93d58b614cb43a3dcc052cb3ef58, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: bdf8dbfdffb8c254eaa6bafce1a540c8, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2da0c512f12947e489f739169773d7ca, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 30649d3a9faa99c48a7b1166b86bf2a0, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 499a0cf51780e8c4ba933ed9618547c8, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b4e939b2c81a7294d8dd647d703a0e8f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 21eccccb0bf66b2438a00340ac65242c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0320a5851d9195442b54de70ed40771c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f134d724313d15d418f052a5f47637d9, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 53271b9cf01401a4e9aed8f757e52a9e, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 64f0cd3d9f0290a41bacef1b25740ab7, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 68d4685f0dc01254e9ab4de9cf6aea1e, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8a8695521f0d02e499659fee002a26c2, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 798cfda4843fa5a42bf3d26a4e359b27, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: eb80a885fb2f116429b56a6aaf75ff60, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 59f8146938fff824cb5fd77236b75775, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9ff38c660aea91f43b35776e21043e24, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a8d4b203ccd8d004b89e49cb745c1020, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b1c24b93482501f42887662ea8134f86, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: ae2a8db29e86bd94fae2aec35397db6f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 61cf288a30cdad5469aa6e4c30a75c46, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a875ef9e3d485764e94efe4ec173e0b3, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9a87caebc15c28048b5e18353efafde8, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: bd387d0576ad7f04d88893cfd2e86a43, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3312d7739989d2b4e91e6319e9a96d76, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: edae15417215d3d40a5aa8a51663be2c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a0a629ea7e7516043b3ee585151787ac, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2f665fb3d5e223745a434a2db51ef599, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2a3d1b63481005e41a6c002033f7f8ca, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: adaa662b997dd3c439e2600d44482f81, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8bcffa3a34f44b340a1dc5336781f2c9, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5149970d96e92a043939f0227874cf47, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 16ca685504b4e5d4bba3b7b733da91ff, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8f062c953597c0846a018a8c2f4c977a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4d6e3cf764fe58a42a62aa3db51ad98e, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c8cb49368a1166d478d10507e2fcd8c9, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5a321264300d9b042a31309258511d07, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: cfb3d3d8239ba7342b441df10720f294, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1aa08ab6e0800fa44ae55d278d1423e3, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 88d3fc525a5da35459584ca6f0d097d5, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 131a596cd671c2949b80ff57114936d5, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 987526c77e94d564ca6cfe4573895f49, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7e2cb89821bc5484e975cc2ffe267b6f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4b922392aef534046b7ee2e28a24dea8, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 94d49e2cb9cc9b941850b71a36c8249d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: be1cde16e4ef92c4ca52e0c4c266fb78, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8dc0a6e49f24d1649b527ad588fc3d98, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e9f102cbf961dc4418c0de442e4e55da, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 10a2f6b4ff1efca499d8f9a177d56211, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 31a19414c41e5ae4aae2af33fee712f6, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 61e7682e89d847949b5dad56dd0a86eb, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 31605a780a304fe45906552e26f6ff39, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: cfa2cb157c3cd79449d98136b7dc290e, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9085046f02f69544eb97fd06b6048fe2, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b2fac95cf45f7284d8327c8f94f429bc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c6aa7926e3c571f4aaac9144a5be3820, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a27c64d95b5702349bc878fd5ae89fc4, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c8350953e8fc7404f9cc03a8d59b1236, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 76783845aa7748f4a485908a69b03900, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 080bfc04fa49df846afd0e03c5104e5f, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 124
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 223
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+- Class: 225
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: Assembly-CSharp
+  ClassName: Gather/GatherState
+- AssemblyName: Assembly-CSharp
+  ClassName: GatherStateData
+- AssemblyName: Assembly-CSharp
+  ClassName: ItemType
+- AssemblyName: Assembly-CSharp
+  ClassName: UIFormInfo
+- AssemblyName: Assembly-CSharp
+  ClassName: UIType
+- AssemblyName: Assembly-CSharp
+  ClassName: UI_Main_Biotank_Type
+- AssemblyName: Assembly-CSharp
+  ClassName: UI_Title_ButtonGroup_Button_Type
+- AssemblyName: Unity.RenderPipelines.Universal.Runtime
+  ClassName: UnityEngine.Rendering.Universal.TemporalAA/Settings
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.FaceInfo_Legacy
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.FontAssetCreationSettings
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.GlyphAnchorPoint
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.KerningTable
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.LigatureSubstitutionRecord
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.MarkPositionAdjustment
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.MarkToBaseAdjustmentRecord
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.TMP_Character
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.TMP_FontFeatureTable
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.TMP_FontWeightPair
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.TMP_InputField/OnChangeEvent
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.TMP_InputField/SelectionEvent
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.TMP_InputField/SubmitEvent
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.TMP_InputField/TextSelectionEvent
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.TMP_InputField/TouchScreenKeyboardEvent
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.VertexGradient
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.ArgumentCache
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.PersistentCallGroup
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.PersistentListenerMode
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.RectOffset
+- AssemblyName: UnityEngine.TextCoreFontEngineModule
+  ClassName: UnityEngine.TextCore.FaceInfo
+- AssemblyName: UnityEngine.TextCoreFontEngineModule
+  ClassName: UnityEngine.TextCore.Glyph
+- AssemblyName: UnityEngine.TextCoreFontEngineModule
+  ClassName: UnityEngine.TextCore.GlyphMetrics
+- AssemblyName: UnityEngine.TextCoreFontEngineModule
+  ClassName: UnityEngine.TextCore.GlyphRect
+- AssemblyName: UnityEngine.TextCoreFontEngineModule
+  ClassName: UnityEngine.TextCore.LowLevel.GlyphAdjustmentRecord
+- AssemblyName: UnityEngine.TextCoreFontEngineModule
+  ClassName: UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord
+- AssemblyName: UnityEngine.TextCoreFontEngineModule
+  ClassName: UnityEngine.TextCore.LowLevel.GlyphValueRecord
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.AnimationTriggers
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.Button/ButtonClickedEvent
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.ColorBlock
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.FontData
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.Navigation
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.ScrollRect/ScrollRectEvent
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.SpriteState
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.Toggle/ToggleEvent
+Assets:
+- Assets/AssetsPackage/GamePrefab/UI_IllustratedGuide_Entry.prefab
+- Assets/AssetsPackage/GamePrefab/UI_BioTankInfo_CreatureInfo_AnimalInfo.prefab
+- Assets/AssetsPackage/GamePrefab/Canvas.prefab
+- Assets/AssetsPackage/GamePrefab/UI_BioTank_Edit.prefab
+- Assets/AssetsPackage/GamePrefab/ItemIcon.prefab
+- Assets/AssetsPackage/GamePrefab/Icon.prefab
+- Assets/AssetsPackage/GamePrefab/UI_Warehouse_WareInfo_Creature_Info.prefab
+- Assets/AssetsPackage/GamePrefab/UI_BluePrintnfomation.prefab
+- Assets/AssetsPackage/GamePrefab/Auto_Add_Nutrition.prefab
+- Assets/AssetsPackage/Channel/GamePrefab.bytes
+- Assets/AssetsPackage/GamePrefab/Scroll View.prefab
+- Assets/AssetsPackage/GamePrefab/HelpInfo.prefab
+- Assets/AssetsPackage/GamePrefab/UI_Biotank_Move.prefab
+- Assets/AssetsPackage/GamePrefab/UI_Biotank_List.prefab
+- Assets/AssetsPackage/GamePrefab/Text (TMP).prefab
+- Assets/AssetsPackage/GamePrefab/cangetprefab.prefab
+- Assets/AssetsPackage/GamePrefab/UI_BioTankInfo_CreatureInfo_PlantInfo.prefab
+- Assets/AssetsPackage/GamePrefab/Money.prefab
+- Assets/AssetsPackage/GamePrefab/UI_Main_IllustratedGuide.prefab
+- Assets/AssetsPackage/GamePrefab/ToastPrefab.prefab
+- Assets/AssetsPackage/GamePrefab/UI_Warehouse_WareInfo_Info.prefab
+- Assets/AssetsPackage/GamePrefab/UI_BluePrintSetName.prefab
+- Assets/AssetsPackage/GamePrefab/UI_BioTankInfo_CreatureInfo_FacilityInfo.prefab
+- Assets/AssetsPackage/GamePrefab/UI_Biotank_AddBiotank.prefab
+- Assets/AssetsPackage/GamePrefab/Test_QC2.prefab
+- Assets/AssetsPackage/GamePrefab/TestButtonGroup.prefab
+- Assets/AssetsPackage/GamePrefab/UI_Bueprint_Info.prefab
+- Assets/AssetsPackage/GamePrefab/IconTips.prefab
+- Assets/AssetsPackage/GamePrefab/TipsManager.prefab
+- Assets/AssetsPackage/GamePrefab/UI_Biotank_AddBiotank_BioInfo.prefab
+Dependencies:
+- C:/1/server/AssetBundles/win64/Test/fonts.assetbundle
+- C:/1/server/AssetBundles/win64/Test/image.assetbundle
