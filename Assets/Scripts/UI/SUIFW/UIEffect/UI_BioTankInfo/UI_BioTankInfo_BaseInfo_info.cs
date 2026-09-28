@@ -46,12 +46,15 @@ public class UI_BioTankInfo_BaseInfo_info : MonoBehaviour
         // 主动拉取数据刷新UI
         RefreshData();
 
-        Add.AddDeskTopListener(() => {
+        // 长按支持：单击仍为一次操作；长按0.5秒后连续触发（每0.15秒一次）
+        // 复用项目既有的 AddDeskTopStillClipListener（MyButtonTriggerEvent）模式，
+        // 与 UI_Biotank_Move 的窗口/相机调整按钮行为保持一致
+        Add.AddDeskTopStillClipListener(() => {
             var bioTank = BioTankRegistry.Instance.GetBioTank(BioTankID);
             bioTank?.ChangeValue(Type);
             // 操作后立即刷新显示
             RefreshData();
-        });
+        }, 0.5f, 0.15f);
         //DesktopButtonManager.instance.AddListener(Add,()=> { PlayerManager.Instance.BioTanks[BioTankID].ChangeValue(Type); });
     }
 
