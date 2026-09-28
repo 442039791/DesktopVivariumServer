@@ -97,11 +97,13 @@ public class ModHarmonyManager : IModHarmonyManager
             return loadedAssembly;
         }
 
-        // 从已加载的模组中搜索 0Harmony.dll
-        // 玩家可以先加载一个专门的 Harmony 模组来提供此依赖
+        // 从已发现的模组中搜索 0Harmony.dll（不要求模组已加载）
+        // 修复：HarmonyLib 基础模组只提供 0Harmony.dll、没有 IModEntry 实现，
+        // 因此永远不会进入 GetLoadedMods() 列表；若只扫已加载模组，Harmony 永远找不到，
+        // 所有依赖 Harmony 的 DLL 模组会静默失效。改扫 GetAllMods()（全部已发现模组）。
         if (ModManager.Instance != null && ModManager.Instance.IsInitialized)
         {
-            foreach (var mod in ModManager.Instance.GetLoadedMods())
+            foreach (var mod in ModManager.Instance.GetAllMods().Values)
             {
                 // 搜索模组的 Plugins 目录
                 var paths = new[]
