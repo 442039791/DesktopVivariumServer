@@ -115,3 +115,6 @@ AssetBundles/
 !*.[Cc]ache.meta
 !*.[Aa]sset.meta
 
+
+# Runtime-generated WebSocket port (rewritten on every server start)
+Assets/StreamingAssets/port.txt
