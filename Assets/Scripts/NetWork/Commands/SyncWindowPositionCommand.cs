@@ -30,6 +30,10 @@ namespace Network.Commands
             client.SetPosition(data.position);
             client.SetSize(new Vector2Int(data.width, data.height));
 
+            // 【窗口闸门】客户端能同步窗口位置，说明它已完成加载并在桌面上定位了窗口
+            // 以此作为"客户端就绪"信号，首个就绪即放行显示服务器窗口
+            ServerWindowGate.Instance.NotifyClientReady(clientId);
+
             Debug.Log($"[SyncWindowPositionCommand] 已同步客户端{clientId}窗口位置: ({data.position.x}, {data.position.y}), 尺寸: {data.width}x{data.height}");
         }
     }

@@ -227,7 +227,17 @@ public class WallpaperManager : MonoSingleton<WallpaperManager>
         _initialSize = CoreSetting.Instance.UICamera.orthographicSize;
 
 #if !UNITY_EDITOR
+        // 【窗口闸门】尽早隐藏窗口，避免启动阶段闪现
+        // 客户端就绪后由 ServerWindowGate 放行显示（见 AllowWindowReveal）
+        unityWnd = WindowsAPI.GetUnityWindowHandle();
+        if (unityWnd != IntPtr.Zero && !IsWindowRevealAllowed)
+        {
+            ShowWindow(unityWnd, SW_HIDE);
+        }
+
         StartCoroutine(ApplyWindowStyle());
+        // 绝对兜底：即使闸门初始化流程因异常中断，也保证窗口最终会显示
+        StartCoroutine(WindowRevealFailsafe());
 #endif
 
     }
@@ -253,25 +263,28 @@ public class WallpaperManager : MonoSingleton<WallpaperManager>
             unityWnd = WindowsAPI.GetUnityWindowHandle();
             if (unityWnd == IntPtr.Zero) unityWnd = FindWindow(null, Application.productName);
 
-            // 首先确保窗口可见
-            ShowWindow(unityWnd, SW_SHOW);
+            // 【窗口闸门】按闸门状态决定显示/隐藏（客户端就绪前保持隐藏）
+            ShowWindow(unityWnd, IsWindowRevealAllowed ? SW_SHOW : SW_HIDE);
 
             // 移除边框和标题
             long style = WindowsAPI.GetWindowStyle(unityWnd);
             long newStyle = style & ~(WS_CAPTION | WS_BORDER | WS_THICKFRAME | WS_SYSMENU | WS_MINIMIZEBOX | WS_MAXIMIZEBOX);
-            // 确保保留WS_VISIBLE标志
-            newStyle |= WS_VISIBLE;
+            // 仅在放行后才强制保留WS_VISIBLE标志（隐藏状态下由 SW_HIDE 维持不可见）
+            if (IsWindowRevealAllowed)
+            {
+                newStyle |= WS_VISIBLE;
+            }
             WindowsAPI.SetWindowStyle(unityWnd, newStyle);
 
-            // 强制刷新窗口并确保显示
+            // 强制刷新窗口（显示标志按闸门状态附加）
             SetWindowPos(unityWnd, IntPtr.Zero, 0, 0, 0, 0,
-                SWP_FRAMECHANGED | SWP_NOMOVE | SWP_NOSIZE | SWP_NOZORDER | SWP_SHOWWINDOW);
+                SWP_FRAMECHANGED | SWP_NOMOVE | SWP_NOSIZE | SWP_NOZORDER | VisibilityFlag);
 
             // 应用DWM效果
             ApplyDwmEffects(unityWnd);
 
-            // 再次确保窗口显示
-            ShowWindow(unityWnd, SW_SHOW);
+            // 【窗口闸门】再次按闸门状态应用显示/隐藏
+            ShowWindow(unityWnd, IsWindowRevealAllowed ? SW_SHOW : SW_HIDE);
 
             windowStyleApplied = true;
         }
@@ -301,6 +314,55 @@ public class WallpaperManager : MonoSingleton<WallpaperManager>
     // Windows API 已移至 WindowsAPI
 
     private bool windowStyleApplied = false;
+
+    /// <summary>
+    /// 窗口是否已被闸门放行显示（由 ServerWindowGate 控制）
+    /// false 期间所有窗口操作都不附带"显示"标志，保持 SW_HIDE 状态
+    /// </summary>
+    public bool IsWindowRevealAllowed { get; private set; } = false;
+
+    /// <summary>
+    /// 放行窗口显示（由 ServerWindowGate 调用；也可作为异常兜底手动调用）
+    /// </summary>
+    public void AllowWindowReveal()
+    {
+        if (IsWindowRevealAllowed) return;
+        IsWindowRevealAllowed = true;
+
+#if !UNITY_EDITOR
+        if (unityWnd == IntPtr.Zero)
+        {
+            unityWnd = WindowsAPI.GetUnityWindowHandle();
+        }
+        if (unityWnd != IntPtr.Zero)
+        {
+            ShowWindow(unityWnd, SW_SHOW);
+            SetWindowPos(unityWnd, IntPtr.Zero, 0, 0, 0, 0,
+                SWP_FRAMECHANGED | SWP_NOMOVE | SWP_NOSIZE | SWP_NOZORDER | SWP_SHOWWINDOW);
+        }
+#endif
+        Debug.Log("[WallpaperManager] 服务器窗口已放行显示");
+    }
+
+    /// <summary>
+    /// 绝对兜底：即使闸门初始化流程因异常中断（如加载存档崩溃），
+    /// 也保证窗口不会永远隐藏
+    /// </summary>
+    private IEnumerator WindowRevealFailsafe()
+    {
+        yield return new WaitForSeconds(60f);
+        if (!IsWindowRevealAllowed)
+        {
+            Debug.LogWarning("[WallpaperManager] 窗口显示兜底超时（60s），强制显示服务器窗口");
+            AllowWindowReveal();
+        }
+    }
+
+    /// <summary>
+    /// 当前 SetWindowPos 应使用的显示标志：
+    /// 未放行时不带显示标志，避免隐藏中的窗口被意外唤起
+    /// </summary>
+    private uint VisibilityFlag => IsWindowRevealAllowed ? SWP_SHOWWINDOW : 0u;
 
     /// <summary>
     /// 窗口是否处于扩展状态
@@ -415,13 +477,13 @@ public class WallpaperManager : MonoSingleton<WallpaperManager>
         {
             // 使用当前窗口的左上角位置，只改变宽高
             SetWindowPos(unityWnd, IntPtr.Zero, currentRect.Left, currentRect.Top, displayWidth, displayHeight,
-                    SWP_FRAMECHANGED | SWP_NOZORDER | SWP_SHOWWINDOW);
+                    SWP_FRAMECHANGED | SWP_NOZORDER | VisibilityFlag);
         }
         else
         {
             // 如果获取位置失败，使用原来的方式
             SetWindowPos(unityWnd, IntPtr.Zero, 0, 0, displayWidth, displayHeight,
-                    SWP_FRAMECHANGED | SWP_NOZORDER | SWP_NOMOVE | SWP_SHOWWINDOW);
+                    SWP_FRAMECHANGED | SWP_NOZORDER | SWP_NOMOVE | VisibilityFlag);
         }
 #endif
 
@@ -448,7 +510,7 @@ public class WallpaperManager : MonoSingleton<WallpaperManager>
             if (GetWindowRect(unityWnd, out currentRect))
             {
                 SetWindowPos(unityWnd, IntPtr.Zero, currentRect.Left, currentRect.Top, displayWidth, displayHeight,
-                    SWP_FRAMECHANGED | SWP_NOZORDER | SWP_SHOWWINDOW);
+                    SWP_FRAMECHANGED | SWP_NOZORDER | VisibilityFlag);
             }
 #endif
         }

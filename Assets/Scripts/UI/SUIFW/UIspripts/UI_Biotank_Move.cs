@@ -157,11 +157,11 @@ public class UI_Biotank_Move : ChangeLanugeBaseSUIFW
 
         Window_adjustDepth_Increase_Btn.AddDeskTopStillClipListener(() =>
         {
-            WebSocketServerManager.GetActiveClient()?.SendCameraControlScrollCommand(0.05f);
+            WebSocketServerManager.GetActiveClient()?.SendCameraControlScrollCommand(1.0f);
         });
         Window_adjustDepth_Decrease_Btn.AddDeskTopStillClipListener(() =>
         {
-            WebSocketServerManager.GetActiveClient()?.SendCameraControlScrollCommand(-0.05f);
+            WebSocketServerManager.GetActiveClient()?.SendCameraControlScrollCommand(-1.0f);
         });
         Window_adjustDepth_Reset_Btn.AddDeskTopListener(() =>
         {

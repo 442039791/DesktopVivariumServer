@@ -1,6 +1,6 @@
 # Server 工程说明
 
-`server/` 是 DesktopTerrarium 的服务端 Unity 工程，负责生态模拟、存档、Steam、模组和客户端调度。
+`server/` 是 DesktopVivarium 的服务端 Unity 工程，负责生态模拟、存档、Steam、模组和客户端调度。
 
 ## 基本信息
 
@@ -43,7 +43,7 @@ server/
 1. `GameManager.Init()`
 2. 初始化日志系统
 3. 初始化 Steam、本地化、Mod、WallpaperManager、DI、SaveSystem、TimerSystem
-4. `WebSocketServerManager` 启动监听并写入 `StreamingAssets/port.txt`
+4. `WebSocketServerManager` 在自身 `Start()` 中启动监听并写入 `StreamingAssets/port.txt`（并非由 `GameManager` 显式调用）
 5. `GameInitializer.StartGame()` 加载存档并创建运行时对象
 6. 根据生态缸数量启动客户端进程
 7. 初始化预加载休眠客户端
@@ -73,7 +73,7 @@ server/
 
 ### 1. 主存档
 
-- 文件结构：`ServerPackage`
+- 文件结构：`ServerPackage.dat`
 - 内容包括：
   - `SaveData`
   - `GatherSaveData`
@@ -81,7 +81,7 @@ server/
 
 ### 2. 生态缸独立包
 
-- 文件名：`{BioTankId}.biotank.dat`
+- 文件名：`{ID}_BioTankPackage.gz`
 - 内容包括：
   - 地形数据
   - 摄像机参数

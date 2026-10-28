@@ -584,6 +584,10 @@ public class GameInitializer
         {
             int bioTankCount = BioTankRegistry.Instance.Count;
 
+            // 【窗口闸门】通知闸门本次需要等待的客户端数量
+            // 服务器窗口在此之前保持隐藏，首个客户端就绪后一起显示
+            ServerWindowGate.Instance.Initialize(bioTankCount);
+
             if (bioTankCount == 0)
             {
                 Debug.LogWarning("[GameInitializer] 没有生态缸，无法启动客户端进程！");
